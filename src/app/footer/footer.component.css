@@ -1,0 +1,12 @@
+div{
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  border-top: 2px solid black;
+  text-align: center;
+}
+h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
