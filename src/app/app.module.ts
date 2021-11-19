@@ -6,10 +6,15 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
+import {GamemenuComponent} from './gamemenu/gamemenu.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent,HeaderComponent,FooterComponent],
+  declarations: [ AppComponent,
+                  HelloComponent,
+                  HeaderComponent,
+                  FooterComponent,
+                  GamemenuComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
